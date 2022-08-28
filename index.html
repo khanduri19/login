@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>xyz.com</title>
 </head>
+
 <body>
     <h1><b><u>Login/Sign Up</u></b></h1>
-    <form action="" method="get">
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-            <br><br>
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Your Password" name="psw" required>
-            <br><br>
-            <button type="submit">Login</button>
-            <label for="">
-                <input type="checked" name="remember">
-                Remember me
-            </label> 
-        </div>
+    <table border="3">
+        <form action="" method="get">
+            <tr>
+                <th><label for="uname"><b>Username</b></label></th>
+                <td> <input type="text" placeholder="Enter Username" name="uname" required></td>
+            </tr>
+            <tr>
+                <th><label for="psw"><b>Password</b></label></th>
+                <td><input type="password" placeholder="Enter Your Password" name="psw" required></td>
+            </tr>
+            <tr>
+                <th></th> <button type="submit">Login</button>
+                <td>><label for="">
+                        <input type="checked" name="remember">
+                        Remember me
+                    </label></td>
+            </tr>
 
-        <button type="button" class="cancelbtn">Cancel</button>
-        <br><br>
-        <span>Forget <a href="#">password?</a></span>
-    </form>
-    
+            <tr>
+                <th>
+                    < type="button" buttonclass="cancelbtn">Cancel</button>
+                </th>
+            </tr>
+            <tr>
+                <th><span>Forget <a href="#">password?</a></span></th>
+            </tr>
+
+        </form>
+    </table>
+
 </body>
+
 </html>
